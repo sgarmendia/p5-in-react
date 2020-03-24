@@ -1,0 +1,25 @@
+// Normalizing styles
+*,
+::before,
+::after {
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+//--------------------------------------//
+
+html {
+  background-color: dimgray;
+  h1 {
+    font-family: monospace;
+    padding-left: 1em;
+    color: white;
+  }
+  div {
+    width: fit-content;
+    margin: 1em auto;
+  }
+}

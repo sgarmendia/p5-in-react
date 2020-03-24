@@ -1,0 +1,32 @@
+{
+  "name": "p5-in-react",
+  "version": "1.0.0",
+  "description": "An updated react component wrapper for p5.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build index.html --out-dir build"
+  },
+  "keywords": [
+    "react",
+    "parcel",
+    "boilerplate",
+    "p5"
+  ],
+  "author": "SG",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/runtime": "^7.7.4",
+    "p5": "^1.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/plugin-proposal-class-properties": "^7.7.0",
+    "@babel/plugin-transform-runtime": "^7.7.4",
+    "cssnano": "^4.1.10",
+    "sass": "^1.23.6"
+  }
+}
