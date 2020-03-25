@@ -3,7 +3,6 @@ export default p => {
         p.createCanvas(710, 400);
         p.pixelDensity(1);
         p.noLoop();
-
     };
 
     p.redrawFromProps = props => {
